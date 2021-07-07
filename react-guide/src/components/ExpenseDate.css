@@ -1,0 +1,10 @@
+.mainDiv{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius:8%;
+}
+.secondDiv{
+    padding: 2px;
+}

@@ -9,7 +9,13 @@
   background-color: #4b4b4b;
 }
 
+/*Those px position are just for test purpose*/
+.expense-item__title{
+  margin-left: 500px;
+}
+
 .expense-item__description {
+  margin-left: 500px;
   display: flex;
   flex-direction: column;
   gap: 1rem;

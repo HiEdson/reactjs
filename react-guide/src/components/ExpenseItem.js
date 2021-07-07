@@ -1,16 +1,18 @@
 import './ExpenseItem.css'
+import ExpenseDate from './ExpenseDate'
 
-function ExpenseItem (){
-    return(
+
+function ExpenseItem(props) {
+    return (
         //JSX must have only one parent element
         <div className="expense-item">
-            <div>March, 28th</div>
+            <ExpenseDate date={props.date} />
+           <div className='expense-item__title '> {props.title}</div>
             <div className="expense-item__description">
-                <h2>Car insurance</h2>
-                <div className="expense-item__price">29usd</div>
+                
+                <div className="expense-item__price">${props.amount}</div>
             </div>
         </div>
-        
     );
 }
 
